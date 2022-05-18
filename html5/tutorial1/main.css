@@ -7,16 +7,21 @@ img{
     border-radius: 50%;
 
 }
-table, th, td{
+table, th, td {
     border: 2px black solid;
     background-color: aqua;
     border-collapse: collapse;
     font-weight: bold;
     font-size: 20px;
+    margin: 10px;
+    color: red;
 
     
     
 }
 th{ 
     background-color: lightgreen;
+}
+td{
+    color: black;
 }
