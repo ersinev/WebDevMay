@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+li{
+    list-style-type: upper-roman;
+    display: inline;
+    background-size: contain;
+    padding-right: 100px;
+    
+    
+}
+ul{
+    text-align: center;
+}
+a{  
+    text-decoration: none;
+    color: red;
+    font-family:'Macondo', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    
+    
+}
+li:hover{
+    background-color: rgb(21, 233, 109);
+    
+}
+   
+.active{
+    color: green;
+    
+}
+#navbar{
+    background-color: rgb(33, 219, 73);
+    text-align: left;
+    
+    
+}
