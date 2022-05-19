@@ -40,3 +40,10 @@ footer{
     padding: 10px;
     text-align: center;
 }   
+
+main#login-container{
+    background-color: rgb(179, 233, 236);
+    padding: 3px;
+    border-radius: 3px;
+
+}
