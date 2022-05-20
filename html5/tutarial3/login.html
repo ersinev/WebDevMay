@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Login</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <main id="login-container">
-        <h1>Login Page</h1>
-        <form method="post" action="/save">
-            <fieldset>
-                <legend>For input Datas</legend>
-            <label for="username">Username</label><br>
-            <input type="text" placeholder="Enter your username" value="admin"><br>
-            
-            <!-- <input type="submit" value="Send"> -->
-            <label for="email">Email</label><br>
-            <input type="email" name="email" placeholder="Enter your email"><br>
-            <input type="text" value="Aalst" readonly><br>
-            <label for="date">Date</label><br>
-            <input type="date">
-            <input type="hidden" value="token234324324324234243" readonly required><br>
-            <label for="password">Password</label><br>
-            <input type="password" name="password" placeholder="Enter your password"><br>
-            <button>Send</button>
+      <h1>Login Page</h1>
+      <form method="post" action="/save">
+        <fieldset>
+          <legend>For input Datas</legend>
+          <label for="username">Username</label><br />
+          <input
+            type="text"
+            placeholder="Enter your username"
+            value="admin"
+          /><br />
+
+          <!-- <input type="submit" value="Send"> -->
+          <label for="email">Email</label><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+          /><br />
+          <input type="text" value="Aalst" readonly /><br />
+          <label for="date">Date</label><br />
+          <input type="date" />
+          <input
+            type="hidden"
+            value="token234324324324234243"
+            readonly
+            required
+          /><br />
+          <label for="password">Password</label><br />
+          <input
+            type="password"
+            name="password"
+            placeholder="Enter your password"
+          /><br />
+          <button>Send</button>
         </fieldset>
-        </form>
+      </form>
     </main>
-
-
-
-
-
-
-
-</body>
+  </body>
 </html>

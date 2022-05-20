@@ -1,55 +1,81 @@
-nav{
-    background-color: aqua;
-    padding: 1px;
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+nav {
+  background-color: aqua;
+  padding: 1px;
+  width: 100%;
+  opacity: 80%;
+ 
+}
+#mainsection{
+    background: url(https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg);
+    background-size: cover;
 }
 
-li{
-    display: inline;
+li {
+  display: inline;
+  padding: 30px;
+  
 }
 
-ul{
-    text-align: center;
-
+ul {
+  text-align-last: left;
+  align-items: center;
+  
+  
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  
 }
-#home{
-    text-align: center;
-    background-color: antiquewhite;
-    padding: 10px;
-
-    
+a:hover {
+  background-color: aquamarine;
+  height: auto;
+  border-radius: 10px;
 }
-
-article > img{
-    width: 100px;
-    float: left;
-    margin: 5px;
-    
-}
-#blog{
-    display: flex;
-    width: auto;
+#home {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 50%;
+  background-size: 100px;
+  opacity: 70%;
 }
 
-footer{
-    color: azure;
-    background-color: grey;
-    padding: 10px;
-    text-align: center;
-}   
-
-main#login-container{
-    background-color: rgb(179, 233, 236);
-    padding: 3px;
-    border-radius: 3px;
-
+article > img {
+  width: 100px;
+  float: left;
+  margin: 5px;
 }
- main#gallery{
-     
- }
- video{
-     width: 500px;
- }
+#blog {
+  display: flex;
+  width: auto;
+  color: azure;
+}
+
+footer {
+  color: azure;
+  background-color: grey;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+main#login-container {
+  background-color: rgb(179, 233, 236);
+  padding: 3px;
+  border-radius: 3px;
+  font-family: 'Macondo', cursive;
+}
+label{
+    font-weight: 900;
+}
+
+
+main#gallery {
+}
+video {
+  width: 500px;
+}
