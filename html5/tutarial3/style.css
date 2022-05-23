@@ -1,34 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
 nav {
   background-color: aqua;
   padding: 1px;
   width: 100%;
   opacity: 80%;
- 
 }
-#mainsection{
-    background: url(https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg);
-    background-size: cover;
+#mainsection {
+  background: url(https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg);
+  background-size: cover;
 }
 
 li {
   display: inline;
   padding: 30px;
-  
 }
 
 ul {
   text-align-last: left;
   align-items: center;
-  
-  
 }
 
 a {
   text-decoration: none;
   font-size: 30px;
   font-weight: bolder;
-  
 }
 a:hover {
   background-color: aquamarine;
@@ -60,22 +55,18 @@ footer {
   background-color: grey;
   padding: 10px;
   text-align: center;
-  
 }
 
 main#login-container {
   background-color: rgb(179, 233, 236);
   padding: 3px;
   border-radius: 3px;
-  font-family: 'Macondo', cursive;
+  font-family: "Macondo", cursive;
 }
-label{
-    font-weight: 900;
+label {
+  font-weight: 900;
 }
 
-
-main#gallery {
-}
 video {
   width: 500px;
 }

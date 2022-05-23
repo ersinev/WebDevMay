@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Input types</title>
+  </head>
+  <body>
+    <fieldset class="container" id="main">
+      <legend>Input Types</legend>
+      <form>
+        <label for="">Select your favorite computer brand</label><br>
+        <input type="checkbox" name="computer1" /><label name="computer1">Lenovo</label>
+        <input type="checkbox" name="computer" /><label>Asus</label><br />
+        <input type="radio" name="pc" /><label>Gaming Computer</label><br />
+        <input type="radio" name="pc" /><label>Office Computer</label><br />
+        <input type="file" name="avatar" /><br>
+        <select>
+          <option value="select you GPU" hidden>Select your GPU</option><br>
+          <option value="GTX1060">GTX1060</option>
+          <option value="GTX1080">GTX1080</option>
+        </select><br>
+        <label for="">Your Comment:</label><br>
+        <textarea name="" id="" cols="10" rows="5" placeholder="enter your comment"></textarea><br>
+        <input type="reset">
+      </form><br>
+
+      <button onclick="displayDate()">The time</button>
+      <p id="demo"></p>
+    </fieldset>
+    <script>
+    function displayDate(){
+        document.getElementById("demo").innerHTML = Date();
+    }
+    </script>
+  </body>
+</html>
