@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 fieldset {
   /* border-color: red;
     border-style: dashed;
@@ -18,6 +18,11 @@ fieldset {
 }
 fieldset>legend{
     font-size: 30px;
+    color: aqua;
+    font-family: 'Koulen', cursive;
+}
+form{
+    color: aliceblue;
 }
 
 #main{
@@ -40,5 +45,5 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-size: cover;
+    
 }
