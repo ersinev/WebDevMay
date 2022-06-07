@@ -8,6 +8,7 @@ nav {
 #mainsection {
   background: url(https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg);
   background-size: cover;
+ 
 }
 
 li {
@@ -48,6 +49,7 @@ article > img {
   display: flex;
   width: auto;
   color: azure;
+  align-items: center;
 }
 
 footer {

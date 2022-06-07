@@ -1,0 +1,64 @@
+html{
+   margin: 0 10%;
+}
+
+header{
+    background-color: lightgrey;
+    padding: 0 30px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+    list-style-type: none;
+    position: relative;
+    
+    
+    
+
+}
+
+.navbar ul li a{
+    margin-left: 10px;
+    
+}
+
+.logo-left{
+    position: absolute;
+    left: 0px;
+}
+.container-first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0 ;
+    
+    
+    
+}
+.p2{
+    background-color: grey;
+    padding: 40px;
+    text-align: center;
+}
+
+.boxcontainer{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+
+
+
+}
+.box{
+    background-color: grey;
+    padding: 20px;
+    margin: 10px 150px;
+    width: 100px;
+    height: 100px;
+
+    align-items: center;
+}
