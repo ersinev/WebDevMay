@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/bootstrap/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container col-4 text-center genel">
+        
+        <h2 class="mb-3">What is the degree?</h2>
+        <div class="text-center icerik">
+            
+            <input required class="form-control-lg mb-2" placeholder="Enter the degree" type="text" id="degree">
+            <button class="btn btn-primary form-text btn-lg " id="btn">Submit</button>
+            <div class="bg-warning sonuc" id="result"></div>
+        </div>
+
+        <h2 class="mb-3">Choose the wether</h2>
+        <div id="radios" class="mb-3">
+            <div><input  type="radio" name="weather" id="rain">Rainy</div>
+            <div><input  type="radio" name="weather" id="sun">Sunny</div>
+            <div><input  type="radio" name="weather" id="snow">Snowy</div>
+            
+             
+            
+        </div> 
+        <div class="container-fluid">
+            <div class="row">
+                <button class="btn btn-primary form-text btn-lg " id="btn2">Submit</button>
+                <div class="bg-warning sonuc" id="result2"></div>
+            </div>    
+        </div>    
+
+        <h2>Degree to Fahrenheit</h2>
+        <div class="text-center icerik">
+            
+            <input required class="form-control-lg mb-2" placeholder="Enter the degree" type="text" id="degreeto">
+            <button class="btn btn-primary form-text btn-lg " id="btn3">Submit</button>
+            <div class="bg-warning sonuc d-3" id="result3"></div>
+        </div>
+
+
+    </div>    
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="/bootstrap/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
