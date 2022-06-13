@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn" style="height:100px; width: 100px; " onmouseover="myFunction(this)" onmouseout="myFunction2(this)">button</button>
+    <p id="text"></p>
+    <script>
+        function myFunction(x) {
+            x.style.height = "300px";
+            x.style.width = "300px";
+            x.style.backgroundColor = "red";
+            x.style.color = "white";
+            x.style.float="right";
+            x.innerHTML = "text changed";
+            
+            
+        }
+        function myFunction2(y) {
+            
+            y.style.height = "100px";
+            y.style.width = "100px";
+            y.style.backgroundColor = "blue";
+            y.style.float="left";
+            y.style.margin="100px";
+
+            
+        }
+        
+    </script>
+</body>
+</html>
