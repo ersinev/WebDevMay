@@ -60,4 +60,4 @@ result= mynewtext.match(/brussel/gm);
 const fruits=["apple","banana","orange", "pineapple"];
 result= fruits.entries();
 
-console.log(result);
+console.log(result); 
