@@ -56,7 +56,7 @@ prompt.get(['name','income'], (err,user) => {
 }
 
 function addExpense () {
-    prompt.get(['name','expense','amount'], (err,user) => {
+    prompt.get(['name','id','expense','amount'], (err,user) => {
     User.findOneAndUpdate({name:user.name}, {$push:{expense:user.amount}})
     .then(data=>data)
     User.findOneAndUpdate({name:user.name}, {$push:{expensename:user.expense}})
